@@ -363,13 +363,7 @@
     var header = document.getElementById("navbar");
 
     var toggle = function() {
-      //   if (scroll < scrollY) {
-      //     header.classList.add('navbar--hidden');
-      //     // header.style.transform = "translateY(0%)";
-      //   } else {
-      //     // header.style.transform = "translateY(-100%)";
-      //     header.classList.remove('navbar--hidden');
-      //   }
+
       header.classList.toggle('navbar--hidden', scroll < scrollY);
       scroll = scrollY;
     }
