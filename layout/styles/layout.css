@@ -659,7 +659,7 @@ nav ul, nav ol {
   line-height: 36px;
   font-size: 16px;
   text-align: center;
-  opacity: 1	;
+  opacity: 1;
 }
 
 #backtotop i {
@@ -671,7 +671,7 @@ nav ul, nav ol {
 
 #backtotop.visible {
   visibility: visible;
-  opacity: 1	;
+  opacity: 1;
 }
 
 #backtotop:hover {
@@ -859,9 +859,8 @@ input:focus, textarea:focus, *:required:focus {
 .row0, .row0 a {
   color: #FFFFFF;
 }
-.row0 {
 
-}
+.row0 {}
 
 .row1 {
   color: #FFFFFF;
@@ -1151,6 +1150,9 @@ table a, #comments a {
     padding: 0;
   }
   #header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     text-align: center;
   }
   #header #logo {
@@ -1237,12 +1239,14 @@ table a, #comments a {
 #mainav form {
   display: block;
 }
+
 .navbar {
- top : 80px;
- position: fixed;
- width: 100%;
- transition: 0.5s;
+  top: 80px;
+  position: fixed;
+  width: 100%;
+  transition: 0.5s;
 }
+
 .navbar--hidden {
   top: -100px;
 }
