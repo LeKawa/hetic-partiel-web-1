@@ -860,6 +860,9 @@ input:focus, textarea:focus, *:required:focus {
 .row0, .row0 a {
   color: #FFFFFF;
 }
+.row0 {
+
+}
 
 .row1 {
   color: #FFFFFF;
@@ -1234,3 +1237,13 @@ table a, #comments a {
 
 #mainav form {
   display: block;
+}
+.navbar {
+ top : 80px;
+ position: fixed;
+ width: 100%;
+ transition: 0.5s;
+}
+.navbar--hidden {
+  top: -100px;
+}
