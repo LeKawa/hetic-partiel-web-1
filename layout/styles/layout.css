@@ -652,7 +652,6 @@ nav ul, nav ol {
   z-index: 999;
   display: inline-block;
   position: fixed;
-  visibility: hidden;
   bottom: 20px;
   right: 20px;
   width: 36px;
@@ -660,7 +659,7 @@ nav ul, nav ol {
   line-height: 36px;
   font-size: 16px;
   text-align: center;
-  opacity: .2;
+  opacity: 1	;
 }
 
 #backtotop i {
@@ -672,11 +671,11 @@ nav ul, nav ol {
 
 #backtotop.visible {
   visibility: visible;
-  opacity: .5;
+  opacity: 1	;
 }
 
 #backtotop:hover {
-  opacity: 1;
+  opacity: .8;
 }
 
 /* Tables --------------------------------------------------------------------------------------------------------------- */
@@ -1037,7 +1036,7 @@ input:focus, textarea:focus, *:required:focus {
 }
 
 #backtotop {
-  color: #FFFFFF;
+  color: red;
   background-color: #CF9C67;
 }
 
@@ -1216,7 +1215,7 @@ table a, #comments a {
 .burgermenu__stroke {
   height: 3px;
   width: 100%;
-  background: white;
+  background: red;
 }
 
 #header #logo {
